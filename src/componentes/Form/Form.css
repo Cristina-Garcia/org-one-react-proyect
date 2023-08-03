@@ -1,0 +1,30 @@
+.container-form {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 80px 50px;
+  gap: 1.5rem;
+}
+
+.form {
+  display: block;
+  flex: 1;
+  background-color: #f6f6f6;
+  box-shadow: 7px 7px 15px 0px rgba(0, 0, 0, 25%);
+  border-radius: 20px;
+  padding: 32px 100px;
+  box-sizing: border-box;
+}
+
+.form h2 {
+  font-family: var(--font-title);
+
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+@media (max-width: 480px) {
+  .form {
+    padding-inline: 20px;
+  }
+}

@@ -1,0 +1,26 @@
+.container-team {
+  width: 100%;
+  padding: 32px;
+  box-sizing: border-box;
+  text-align: center;
+  position: relative;
+}
+.select-color {
+  position: absolute;
+  top: 20px;
+  right: 50px;
+}
+.container-team h3 {
+  display: inline-block;
+  font-size: 32px;
+  font-weight: 400;
+  font-family: var(--font-title);
+  border-bottom: 4px solid;
+  padding-bottom: 5px;
+}
+
+.cards-collaborators {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}

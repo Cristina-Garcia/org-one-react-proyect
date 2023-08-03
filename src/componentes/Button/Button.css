@@ -1,0 +1,15 @@
+.btb-create {
+  color: #fff;
+  border: none;
+  background-color: var(--bg-principal);
+  font-weight: 700;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 28px;
+  align-items: start;
+  margin-top: 2.5rem;
+  cursor: pointer;
+}
+.btb-create:hover {
+  color: var(--bg-secundario);
+}

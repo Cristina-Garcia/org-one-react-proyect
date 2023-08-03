@@ -1,0 +1,49 @@
+.card-colaborador {
+  width: 280px;
+  position: relative;
+}
+.card-header {
+  background-color: var(--programing-destaque);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.card-header img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 100%;
+  position: relative;
+  bottom: -50px;
+}
+.card-info {
+  background: #ffffff;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding-top: 90px;
+  padding-bottom: 40px;
+  min-height: 100px;
+}
+.card-info h4 {
+  font-weight: 600;
+  color: var(--bg-principal);
+  font-size: 18px;
+}
+
+.card-info p {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.delete-card {
+  scale: 1.5;
+  display: none;
+  position: absolute;
+  right: -15px;
+  top: -15px;
+  cursor: pointer;
+}
+
+.card-colaborador:hover .delete-card {
+  display: block;
+}

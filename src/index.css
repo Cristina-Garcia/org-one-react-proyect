@@ -1,0 +1,36 @@
+:root {
+  --bg-principal: #6278f7;
+  --bg-secundario: #95ffd4;
+  --programing-bg: #d9f7e9;
+  --programing-destaque: #57c278;
+  --fronted-bg: #e8f8ff;
+  --fronted-destaque: #82cffa;
+  --datascience-bg: #f0f8e2;
+  --datascience-destaque: #a6d157;
+  --devops-bg: #fde7e8;
+  --devops-destaque: #e06b69;
+  --uxdesing-bg: #fae9f5;
+  --uxdesing-destaque: #db6ebf;
+  --mobile-bg: #fff5d9;
+  --mobile-destaque: #ffba05;
+  --innovation-bg: #ffeedf;
+  --innovation-destaque: #ff8a29;
+
+  --color-principal: #212121;
+  --color-placeholder: #afafaf;
+
+  --font-title: 'Prata', serif;
+  --font-body: 'Montserrat', sans-serif;
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  font-family: var(--font-body);
+  color: var(--color-principal);
+}

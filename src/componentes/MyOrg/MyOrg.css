@@ -1,0 +1,36 @@
+.section-org {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.section-org h3 {
+  color: var(--bg-principal);
+  font-family: var(--font-title);
+  font-size: 2.5rem;
+  text-align: center;
+  border-bottom: 4px solid var(--bg-principal);
+}
+.section-org img {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  right: 20%;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .section-org img {
+    right: 32px;
+  }
+}
+
+@media (max-width: 480px) {
+  .section-org {
+    display: flex;
+    flex-direction: column;
+  }
+  .section-org img {
+    position: static;
+  }
+}

@@ -1,0 +1,18 @@
+.container-camp-select {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-camp-select label {
+  font-weight: 600;
+  font-size: 1.125rem;
+  margin-top: 1.5rem;
+}
+.container-camp-select select {
+  padding-inline: 1rem;
+  padding-block: 1.25rem;
+  border: none;
+  margin-top: 0.5rem;
+  outline-color: var(--bg-principal);
+  font-size: 1rem;
+}
